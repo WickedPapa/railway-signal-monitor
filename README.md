@@ -1,7 +1,7 @@
-# Railway Signal Monitor - CSV Preset Manager
+# CSV Explorer - Preset Manager
 
 ## Descrizione
-Un'applicazione web per gestire ed esplorare file CSV, pensata per agevolare il monitoraggio di segnali ferroviari e dataset complessi con centinaia di colonne. Lo strumento permette di creare **preset personalizzati** per la visualizzazione delle colonne, in modo da filtrare solo i dati necessari e semplificare l'analisi.
+Un'applicazione web per gestire ed esplorare file CSV, pensata per agevolare l'analisi di dataset complessi con centinaia di colonne. Lo strumento permette di creare **preset personalizzati** per la visualizzazione delle colonne, in modo da filtrare solo i dati necessari e semplificare l'esplorazione.
 
 ## Funzionalità Principali
 - **Caricamento CSV Client-Side:** Parsing rapido interamente nel browser tramite *PapaParse*, senza necessità di inviare i dati a un server.
@@ -10,7 +10,7 @@ Un'applicazione web per gestire ed esplorare file CSV, pensata per agevolare il 
   - Clonazione di preset esistenti per derivarne di nuovi più facilmente.
   - Importazione ed esportazione dei preset in formato JSON per condividerli o farne backup.
 - **Tabella Interattiva Dati:** Rendering ad alte prestazioni tramite *AG Grid*, con supporto per ordinamento, ridimensionamento e visualizzazione di grandi moli di dati.
-- **Interfaccia Utente Moderna:** Design curato con effetti "glassmorphism", feedback visivi, animazioni e tema scuro adatto per lunghe sessioni di monitoraggio.
+- **Interfaccia Utente Moderna:** Design curato con effetti "glassmorphism", feedback visivi, animazioni e tema scuro adatto per lunghe sessioni di analisi e monitoraggio dati.
 
 ## Come Iniziare (Utilizzo)
 Essendo un'applicazione statica "zero-build", non è necessario alcun processo di installazione.
@@ -26,8 +26,3 @@ Il progetto è sviluppato esclusivamente utilizzando tecnologie web standard per
 - **Vanilla JavaScript (ES6+)**
 - [AG Grid Community](https://www.ag-grid.com/) (`libs/ag-grid-community.min.js`)
 - [PapaParse](https://www.papaparse.com/) (`libs/papaparse.min.js`)
-
-## Contribuire
-Se si desidera apportare modifiche:
-- La grafica e i token di sistema sono definiti in `style.css`.
-- La logica del gestore preset e della grid è concentrata in `main.js`.
